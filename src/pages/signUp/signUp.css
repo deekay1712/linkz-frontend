@@ -1,0 +1,80 @@
+.authFormWrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: #4361EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authFormContainer {
+    height: 80%;
+    width: 60%;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authFormContainerLeft, .authFormContainerRight{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.authFormContainerLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.authForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 80%;
+    
+}
+.authFormImagePreview{
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* .authFormLabel {
+    font-size: 18px;
+    color: black;
+    display: flex;
+} */
+.authFormInput {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    color: black;
+}
+#authFormFileInput{
+    border: none;
+}
+.authFormButton {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4361EE;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+    transition: 0.1s;
+}
+.authFormButton:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #4361EE;
+}
+.authFormHeading{
+    font-size: 30px;
+    color: black;
+    margin: 10px 0 10px 0;
+}

@@ -1,0 +1,51 @@
+.homeWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #4361EE;
+}
+.homeContainer{
+    width: 50%;
+    height: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeProfileImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.homeGreeting{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4361EE;
+    margin-bottom: 20px;
+}
+.homeEmail{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.homeLogoutButton{
+    width: 30%;
+    height: 30px;
+    background-color: #4361EE;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.homeLogoutButton:hover{
+    background-color: #ffffff;
+    color: #4361EE;
+    border: 2px solid #4361EE;
+}
